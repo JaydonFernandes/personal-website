@@ -55,6 +55,15 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -10085,6 +10094,26 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+
+.tech-stack{
+  margin-top: 1rem;
+}
+
+.tech-btn{
+  margin-bottom: .25rem;
+}
+
+.project-links{
+  margin-top: 1.5rem;
+}
+
+.project-btn{
+  margin-bottom: .25rem;
+}
+
+.project-card{
+  margin-bottom: 1rem;
 }
 
 section.resume-section {
