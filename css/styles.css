@@ -10047,6 +10047,28 @@ p.lead {
   display: block;
 }
 
+.show-more-bar{
+  text-align: center;
+}
+
+.project-img{
+  height: 250px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.mini-project-card{
+  margin-top: 1rem;
+}
+
+.all-mini-projects{
+  padding: 1rem;
+}
+
+.mini-project-title{
+  color: white;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
