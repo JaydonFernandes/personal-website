@@ -10052,9 +10052,18 @@ p.lead {
 }
 
 .project-img{
-  height: 250px;
-  object-fit: cover;
-  filter: brightness(50%);
+  height: 300px;
+  padding: 1rem;
+  background-color: whitesmoke;
+  /* object-fit: cover;
+  filter: brightness(50%); */
+}
+
+.project-img-mini{
+  height: 300px;
+  padding: 1rem;
+  background-color: whitesmoke;
+  filter: brightness(40%);
 }
 
 .mini-project-card{
@@ -10158,6 +10167,38 @@ p.lead {
 
 .project-card{
   margin-bottom: 1.5rem;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgb(255, 255, 255) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.masthead h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+  }
 }
 
 section.resume-section {

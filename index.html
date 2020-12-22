@@ -14,9 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     </head>
     <body id="page-top">
-        
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -39,8 +40,24 @@
         <!-- Page Content-->
         <div class="container-fluid p-0">
 
+            <header class="masthead" id="about">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center justify-content-center text-center">
+                        <div class="col-lg-10 align-self-end">
+                            <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
+                            <hr class="divider my-4" />
+                        </div>
+                        <div class="col-lg-8 align-self-baseline">
+                            <p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
             <!-- About-->
-            <section class="resume-section" id="about">
+            <!-- <section class="resume-section" id="about">
+
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         Jaydon
@@ -52,12 +69,12 @@
                     </div>
                     <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lacus leo. Sed et aliquet eros. Quisque finibus, tortor vitae condimentum ullamcorper, elit lectus ornare nisi, non venenatis est dui vel augue. Aliquam lobortis diam id eros maximus, in elementum mauris pellentesque.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/jaydonfernandes/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/JaydonFernandes"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/jaydonfernandes/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/JaydonFernandes" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </section>
-            <hr class="m-0" />
+            <hr class="m-0" /> -->
 
             <!-- Experience-->
             <section class="resume-section" id="experience">
@@ -268,8 +285,8 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card project-card" >
-                                <a href="https://www.linkedin.com/in/jaydonfernandes/">
-                                    <img  class="card-img-top" src="assets/img/projectLogo2.png" alt="Card image cap">
+                                <a href="https://www.linkedin.com/in/jaydonfernandes/" target="_blank">
+                                    <img class="card-img-top project-img" style="background-color: #29335C;" src="assets/img/project-imgs/repeat.svg" alt="Card image cap">
                                 </a> 
                                 <div class="card-body">
                                     <h5 class="card-title">Project Title</h5>
@@ -288,9 +305,9 @@
                                         <a href="#" class="btn btn-info btn-sm disabled tech-btn" tabindex="-1" role="button" aria-disabled="true">YAML</a>
                                     </div>
                                     
-                                    <div class="project-links">
-                                        <button type="button" class="btn btn-dark btn-lg project-btn"><i class="fas fa-external-link-alt"></i> Visit Site</button>
-                                        <button type="button" class="btn btn-dark btn-lg project-btn"><i class="fab fa-github"></i> View Code</button>
+                                    <div class="project-links" >
+                                        <a type="button" href="#" target="_blank" class="btn btn-dark btn-lg project-btn"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+                                        <a type="button" href="#" target="_blank" class="btn btn-dark btn-lg project-btn"><i class="fab fa-github"></i> View Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -298,8 +315,8 @@
 
                         <div class="col-md-6">
                             <div class="card project-card" >
-                                <a href="https://www.linkedin.com/in/jaydonfernandes/">
-                                    <img  class="card-img-top" src="assets/img/projectLogo2.png" alt="Card image cap">
+                                <a href="https://www.linkedin.com/in/jaydonfernandes/" target="_blank">
+                                    <img class="card-img-top project-img" style="background-color: #16302B;" src="assets/img/project-imgs/leaf.svg" alt="Card image cap">
                                 </a> 
                                 <div class="card-body">
                                     <h5 class="card-title">Project Title</h5>
@@ -319,8 +336,8 @@
                                     </div>
                                     
                                     <div class="project-links">
-                                        <button type="button" class="btn btn-dark btn-lg project-btn"><i class="fas fa-external-link-alt"></i> Visit Site</button>
-                                        <button type="button" class="btn btn-dark btn-lg project-btn"><i class="fab fa-github"></i> View Code</button>
+                                        <a type="button" href="#" target="_blank" class="btn btn-dark btn-lg project-btn"><i class="fas fa-external-link-alt"></i> Visit Site</a>
+                                        <a type="button" href="#" target="_blank" class="btn btn-dark btn-lg project-btn"><i class="fab fa-github"></i> View Code</a>
                                     </div>
                                 </div>
                             </div>
@@ -342,7 +359,7 @@
 
                                     <div class="col-lg-3">
                                         <div class="card bg-dark text-white mini-project-card">
-                                            <img class="card-img project-img" src="assets/img/projectLogo2.png" alt="Card image">
+                                            <img class="card-img project-img-mini" src="assets/img/project-imgs/mini-proj-1.svg" alt="Card image">
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title mini-project-title">Project Title</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -355,20 +372,7 @@
 
                                     <div class="col-lg-3">
                                         <div class="card bg-dark text-white mini-project-card">
-                                            <img class="card-img project-img" src="assets/img/projectLogo2.png" alt="Card image">
-                                            <div class="card-img-overlay">
-                                                <h5 class="card-title mini-project-title">Project Title</h5>
-                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                                
-
-                                                <footer><button type="button" class="btn btn-dark btn-sm project-btn"><i class="fab fa-github"></i> View Code</button></footer>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-lg-3">
-                                        <div class="card bg-dark text-white mini-project-card">
-                                            <img class="card-img project-img" src="assets/img/projectLogo2.png" alt="Card image">
+                                            <img class="card-img project-img-mini" src="assets/img/project-imgs/mini-proj-2.svg" alt="Card image">
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title mini-project-title">Project Title</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -381,7 +385,7 @@
                                     
                                     <div class="col-lg-3">
                                         <div class="card bg-dark text-white mini-project-card">
-                                            <img class="card-img project-img" src="assets/img/projectLogo2.png" alt="Card image">
+                                            <img class="card-img project-img-mini" src="assets/img/project-imgs/mini-proj-3.svg" alt="Card image">
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title mini-project-title">Project Title</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -394,13 +398,26 @@
                                     
                                     <div class="col-lg-3">
                                         <div class="card bg-dark text-white mini-project-card">
-                                            <img class="card-img project-img" src="assets/img/projectLogo2.png" alt="Card image">
+                                            <img class="card-img project-img-mini" src="assets/img/project-imgs/mini-proj-4.svg" alt="Card image">
                                             <div class="card-img-overlay">
                                                 <h5 class="card-title mini-project-title">Project Title</h5>
                                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                                 
 
                                                 <footer><button type="button" class="btn btn-dark btn-sm project-btn"><i class="fab fa-github"></i> View Code</button></footer>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-3">
+                                        <div class="card bg-dark text-white mini-project-card">
+                                            <img class="card-img project-img-mini" src="assets/img/project-imgs/mini-proj-5.svg" alt="Card image">
+                                            <div class="card-img-overlay">
+                                                <h5 class="card-title mini-project-title">Project Title</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                
+
+                                                <footer><button type="button" class="btn btn-light btn-sm project-btn"><i class="fab fa-github"></i> View Code</button></footer>
                                             </div>
                                         </div>
                                     </div>
